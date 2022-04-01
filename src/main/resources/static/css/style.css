@@ -1,5 +1,20 @@
 body{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
+	margin: 1% 1% 4% 4%;
+}
+
+table{
+	margin: 2% 2% 2% 2%;
+}
+
+form{
+	margin: 2% 2% 2% 2%;
+}
+
+img{
+	height: 15px;
+	width: 15px;
+	margin: 1% 1% 1% 1%;
 }
 
 td, th {
@@ -17,6 +32,19 @@ th {
 	text-align: left;
 	background-color: #4CAF50;
 	color: white;
+}
+
+hr {
+	border-style:hidden;
+}
+
+.test {
+	color: white;
+	background-color: orange;
+	border-radius: 25em;
+	text-decoration: none;
+	height: 150%;
+	width: 150%;
 }
 
 .column{
@@ -56,7 +84,7 @@ input[type=email],
 input[type=tel],
 textarea,
 select{
-	width:100%;
+	width:30%;
 	padding:10px;
 	box-sizing:border-box;
 	background-color: #f2f2f2;	
